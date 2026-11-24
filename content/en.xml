@@ -1,0 +1,226 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+  <string name="agenda">"Agenda"</string>
+  <string name="today">"Today"</string>
+  <string name="upcoming">"Upcoming events"</string>
+  <string name="no_upcoming">"No upcoming events"</string>
+  <string name="day_complete">"That's all for today!"</string>
+  <string name="no_today">"No events today"</string>
+  <string name="all_day">"All day"</string>
+  <string name="close">"Close"</string>
+  <string name="schedule">"Time"</string>
+  <string name="description">"Description"</string>
+  <string name="location">"Location"</string>
+  <string name="unavailable">"Unavailable"</string>
+  <string name="calendar">"Calendar"</string>
+  <string name="created">"Created"</string>
+  <string name="add_calendar">"Add Calendar"</string>
+  <string name="refresh_calendars">"Refresh calendars"</string>
+  <string name="refreshing_calendars">"Updating calendars…"</string>
+  <string name="filter_events">"Filter events"</string>
+  <string name="open_menu">"Open menu"</string>
+  <string name="calendars">"Calendars"</string>
+  <string name="settings">"Settings"</string>
+  <string name="about">"About"</string>
+  <string name="theme">"Theme"</string>
+  <string name="palette">"Color palette"</string>
+  <string name="font">"Font"</string>
+  <string name="show_seconds">"Show seconds on the clock"</string>
+  <string name="weather">"Weather"</string>
+  <string name="cancel">"Cancel"</string>
+  <string name="save">"Save"</string>
+  <string name="font_failed">"Font unavailable on this device. Roboto has been restored."</string>
+  <string name="font_invalid">"The selected font is unavailable on this device."</string>
+  <string name="background">"Background image"</string>
+  <string name="choose_image">"Choose image"</string>
+  <string name="file_picker_unavailable">"File picker unavailable"</string>
+  <string name="remove">"Remove"</string>
+  <string name="loading_image">"Loading image…"</string>
+  <string name="image_failed">"Unable to open the image"</string>
+  <string name="no_image">"No image"</string>
+  <string name="selected_image">"Selected image"</string>
+  <string name="image_permission">"Android did not grant access to the image"</string>
+  <string name="version_unavailable">"Version information unavailable"</string>
+  <string name="filter_calendar">"Filter by calendar"</string>
+  <string name="no_calendars">"No calendars configured"</string>
+  <string name="apply">"Apply"</string>
+  <string name="add">"Add"</string>
+  <string name="name">"Name"</string>
+  <string name="ical_address">"Public iCal URL"</string>
+  <string name="google_calendar">"Google Calendar"</string>
+  <string name="invalid_calendar_url">"Enter a public HTTPS iCal URL"</string>
+  <string name="duplicate_calendar">"Calendar already configured"</string>
+  <string name="calendar_config_error">"Incomplete calendar configuration"</string>
+  <string name="refresh_weather">"Refresh weather"</string>
+  <string name="weather_unavailable">"Weather unavailable"</string>
+  <string name="loading_weather">"Loading weather…"</string>
+  <string name="refresh_failed">"Last update failed"</string>
+  <string name="refreshing">"Updating…"</string>
+  <string name="weather_enable">"Weather display"</string>
+  <string name="enable_show">"Enable and show"</string>
+  <string name="place">"Location"</string>
+  <string name="no_place">"No location selected"</string>
+  <string name="search_place">"Search for a location"</string>
+  <string name="temperature_unit">"Temperature unit"</string>
+  <string name="celsius">"Degrees Celsius (°C)"</string>
+  <string name="fahrenheit">"Degrees Fahrenheit (°F)"</string>
+  <string name="refresh_frequency">"Update frequency"</string>
+  <string name="frequency_15">"15 minutes"</string>
+  <string name="frequency_30">"30 minutes"</string>
+  <string name="frequency_60">"1 hour"</string>
+  <string name="frequency_120">"2 hours"</string>
+  <string name="provider">"Provider: Open-Meteo · Locations: GeoNames"</string>
+  <string name="select_place">"Select a location from the results"</string>
+  <string name="searching">"Searching…"</string>
+  <string name="search_unavailable">"Search unavailable"</string>
+  <string name="no_results">"No locations found"</string>
+  <string name="primary_color">"Primary color"</string>
+  <string name="background_color">"Dashboard background"</string>
+  <string name="card_color">"Regular event cards"</string>
+  <string name="highlight_color">"Highlighted event background"</string>
+  <string name="primary_text">"Primary text"</string>
+  <string name="secondary_text">"Secondary text"</string>
+  <string name="clock_color">"Clock color"</string>
+  <string name="date_color">"Date color"</string>
+  <string name="hex_invalid">"Use #RRGGBB or #AARRGGBB"</string>
+  <string name="use_color">"Use color"</string>
+  <string name="red">"Red"</string>
+  <string name="green">"Green"</string>
+  <string name="blue">"Blue"</string>
+  <string name="purple">"Purple"</string>
+  <string name="orange">"Orange"</string>
+  <string name="yellow">"Yellow"</string>
+  <string name="sky_blue">"Sky blue"</string>
+  <string name="white">"White"</string>
+  <string name="gray">"Gray"</string>
+  <string name="fuchsia">"Fuchsia"</string>
+  <string name="lime">"Lime"</string>
+  <string name="brown">"Brown"</string>
+  <string name="opacity">"Opacity"</string>
+  <string name="default_font">"Roboto (default)"</string>
+  <string name="custom_theme">"Custom"</string>
+  <string name="theme_ivory_light">"Ivory and Teal - Light"</string>
+  <string name="theme_slate_light">"Slate and Azure - Light"</string>
+  <string name="theme_ivory_dark">"Ivory and Teal - Dark"</string>
+  <string name="theme_slate_dark">"Slate and Azure - Dark"</string>
+  <string name="theme_apricot_light">"Apricot and Tangerine - Light"</string>
+  <string name="theme_apricot_dark">"Apricot and Tangerine - Dark"</string>
+  <string name="theme_powder_light">"Powder Pink and Fuchsia - Light"</string>
+  <string name="theme_powder_dark">"Powder Pink and Fuchsia - Dark"</string>
+  <string name="theme_porcelain_light">"Porcelain and Cherry - Light"</string>
+  <string name="theme_porcelain_dark">"Porcelain and Cherry - Dark"</string>
+  <string name="theme_mint_light">"Mint and Emerald - Light"</string>
+  <string name="theme_mint_dark">"Mint and Emerald - Dark"</string>
+  <string name="clear">"Clear"</string>
+  <string name="mainly_clear">"Mainly clear"</string>
+  <string name="partly_cloudy">"Partly cloudy"</string>
+  <string name="overcast">"Overcast"</string>
+  <string name="fog">"Fog"</string>
+  <string name="rime_fog">"Depositing rime fog"</string>
+  <string name="drizzle">"Drizzle"</string>
+  <string name="freezing_drizzle">"Freezing drizzle"</string>
+  <string name="rain">"Rain"</string>
+  <string name="heavy_rain">"Heavy rain"</string>
+  <string name="freezing_rain">"Freezing rain"</string>
+  <string name="heavy_freezing_rain">"Heavy freezing rain"</string>
+  <string name="snow">"Snow"</string>
+  <string name="snow_grains">"Snow grains"</string>
+  <string name="rain_showers">"Rain showers"</string>
+  <string name="heavy_showers">"Heavy rain showers"</string>
+  <string name="snow_showers">"Snow showers"</string>
+  <string name="thunderstorm">"Thunderstorm"</string>
+  <string name="heavy_thunderstorm">"Heavy thunderstorm"</string>
+  <string name="thunderstorm_hail">"Thunderstorm with hail"</string>
+  <string name="unknown_weather">"Unknown conditions"</string>
+  <string name="language">"Language"</string>
+  <string name="language_system">"System"</string>
+  <string name="language_name_en">"English"</string>
+  <string name="language_name_it">"Italian"</string>
+  <string name="untitled">"(Untitled)"</string>
+  <string name="starts_in">"Starts in %1$s"</string>
+  <string name="ends_in">"In progress - Ends in %1$s"</string>
+  <string name="duration_join">"%1$s and %2$s"</string>
+  <string name="last_update">"Last updated: %1$s"</string>
+  <string name="calendar_failures">"Calendars not updated: %1$d"</string>
+  <string name="version_build">"Version: %1$s
+Build: %2$d"</string>
+  <string name="author">"Author: Andrea Persano"</string>
+  <string name="choose_color">"Choose color: %1$s"</string>
+  <string name="hex_accessibility">"%1$s in HEX format"</string>
+  <plurals name="minutes">
+    <item quantity="one">%d minute</item>
+    <item quantity="other">%d minutes</item>
+  </plurals>
+  <plurals name="hours">
+    <item quantity="one">%d hour</item>
+    <item quantity="other">%d hours</item>
+  </plurals>
+  <string-array name="wind_directions">
+    <item>N</item>
+    <item>NNE</item>
+    <item>NE</item>
+    <item>ENE</item>
+    <item>E</item>
+    <item>ESE</item>
+    <item>SE</item>
+    <item>SSE</item>
+    <item>S</item>
+    <item>SSW</item>
+    <item>SW</item>
+    <item>WSW</item>
+    <item>W</item>
+    <item>WNW</item>
+    <item>NW</item>
+    <item>NNW</item>
+  </string-array>
+  <string name="language_name_es">"Spanish"</string>
+  <string name="language_name_pt">"Portuguese"</string>
+  <string name="language_name_fr">"French"</string>
+  <string name="language_name_de">"German"</string>
+  <string name="language_name_zh">"Chinese (Mandarin)"</string>
+  <string name="language_name_ja">"Japanese"</string>
+  <string name="language_name_ru">"Russian"</string>
+  <string name="date_pattern">"EEEE dd MMMM yyyy"</string>
+  <string name="clock_date_pattern">"EEEE, dd MMMM yyyy"</string>
+  <string name="back">"Back"</string>
+  <string name="general">"General"</string>
+  <string name="personalization">"Personalization"</string>
+  <string name="date_time">"Date and time"</string>
+  <string name="time_format">"Time format"</string>
+  <string name="hour_12">"12-hour"</string>
+  <string name="hour_24">"24-hour"</string>
+  <string name="date_format">"Date format"</string>
+  <string name="short_date_pattern">"EEE, dd MMM yyyy"</string>
+  <string name="edit">"Edit"</string>
+  <string name="calendar_color">"Color"</string>
+  <string name="edit_calendar">"Edit Calendar"</string>
+  <string name="unsaved_changes">"Unsaved changes"</string>
+  <string name="discard_settings_message">"Leaving settings will discard your unsaved changes. Do you want to exit?"</string>
+  <string name="exit">"Exit"</string>
+    <string name="timewall_info">TimeWall info</string>
+    <string name="privacy">Privacy</string>
+    <string name="licenses_credits">Licenses and credits</string>
+    <string name="credits_summary">Weather data provided by Open-Meteo — CC BY 4.0. Location search: Open-Meteo using GeoNames data. Bundled font copyrights and licenses follow; system Roboto is provided by Android.</string>
+    <string name="font_conversion_notice">The new variable fonts were converted to static Regular instances for Android 4.4. The Raleway derivative uses the internal name TW Rale. Roboto Slab: Apache 2.0; other bundled fonts: SIL OFL 1.1.</string>
+    <string name="licenses_unavailable">Some license notices could not be loaded.</string>
+    <string name="original_assets_credit">Weather icons, app icon and notification sound: resources created for TimeWall using artificial intelligence tools.</string>
+    <string name="interface_icons_credit">FontAwesome Free — icon font for interface buttons and menus — SIL OFL 1.1.</string>
+    <string name="clear_calendar_cache">Clear calendar cache</string>
+    <string name="calendar_cache_hint">Clears local copies of saved calendars and starts an update. Does not save changes on this screen.</string>
+    <string name="calendar_cache_cleared">Calendar cache cleared. Updating calendars…</string>
+    <string name="calendar_cache_error">Unable to completely clear the calendar cache.</string>
+    <string name="clearing_calendar_cache">Clearing calendar cache…</string>
+    <string name="weather_attribution">Weather data: Open-Meteo · CC BY 4.0</string>
+    <string name="external_link_unavailable">No app is available to open this link.</string>
+    <string name="privacy_identity">TimeWall privacy notice\nController: %1$s\nContact: %2$s</string>
+    <string name="privacy_updated">Last updated: %1$s</string>
+    <string name="privacy_service">Purpose and legal basis\nProcessing is necessary to provide the requested calendar dashboard and optional weather features (GDPR Article 6(1)(b)); legal obligations apply where relevant. TimeWall has no user accounts or developer backend and uses no advertising, analytics or profiling. It makes no automated decisions with legal effects.</string>
+    <string name="privacy_calendars">Calendars\nThe app connects directly to the HTTPS iCal providers you configure. URLs, calendar names, colors and complete iCal files are stored locally; files may include titles, times, descriptions, locations, identifiers, creation dates and other personal data. Secret URLs grant calendar access: protect them and use only calendars you are authorized to access. Providers see the requested URL, connection IP and network metadata; their own privacy policies apply.</string>
+    <string name="privacy_weather">Optional weather\nLocation searches and language are sent to Open-Meteo geocoding; forecasts send the coordinates of the place you choose. No GPS location is requested. Open-Meteo also sees the connection IP and states that API logs, potentially including coordinates, are deleted after 90 days. Disabling weather stops forecast updates; explicit searches in Settings still contact Open-Meteo. External providers act independently and may process data outside your country or the EEA; see their policies for locations and safeguards.</string>
+    <string name="privacy_local">Local settings and images\nTheme, font, language, filters, time format and weather preferences stay on the device. The background image is read through the Android file picker; TimeWall does not upload it. The controller receives personal data only if you choose to contact them, such as your email address and message, to handle that request.</string>
+    <string name="privacy_retention">Retention and deletion\nCalendar caches are replaced on successful updates and removed when you save calendar removal or a URL change. Settings → Calendars → Clear calendar cache deletes local calendar copies and downloads them again; it does not remove configuration. Disabling weather keeps the selected place and settings. Clearing app data or uninstalling removes private app storage, not original images or provider-held data. Contact messages are retained for as long as needed to handle the request and applicable legal obligations.</string>
+    <string name="privacy_security">Security\nNetwork requests use HTTPS. Local files and preferences rely on Android app isolation without additional application-level encryption. Weather error logs contain only fixed diagnostic categories. Android backup is disabled. Opening an external link uses your chosen browser or email app and is subject to that service’s policy.</string>
+    <string name="privacy_rights">Your rights\nWhere applicable, you may request access, correction, deletion, restriction, portability and object to processing by contacting the controller. You may complain to the Italian Garante or another competent data protection authority. For device-only data, use local controls: the controller cannot access it remotely. For data held by independent calendar or weather providers, contact those providers. Providing a calendar URL or weather place is optional; without them the corresponding feature is unavailable.</string>
+    <string name="privacy_web_pending">Public privacy-policy URL: to be defined.</string>
+  <string name="no_calendars_configured">"No calendars configured. Add calendar"</string>
+</resources>

@@ -1,0 +1,226 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+  <string name="agenda">"Agenda"</string>
+  <string name="today">"Oggi"</string>
+  <string name="upcoming">"Prossimi eventi"</string>
+  <string name="no_upcoming">"Nessun prossimo evento"</string>
+  <string name="day_complete">"Per oggi è tutto!"</string>
+  <string name="no_today">"Nessun evento per oggi"</string>
+  <string name="all_day">"Tutto il giorno"</string>
+  <string name="close">"Chiudi"</string>
+  <string name="schedule">"Orari"</string>
+  <string name="description">"Descrizione"</string>
+  <string name="location">"Luogo"</string>
+  <string name="unavailable">"Non disponibile"</string>
+  <string name="calendar">"Calendario"</string>
+  <string name="created">"Data di inserimento"</string>
+  <string name="add_calendar">"Aggiungi Calendario"</string>
+  <string name="refresh_calendars">"Aggiorna calendari"</string>
+  <string name="refreshing_calendars">"Aggiornamento calendari…"</string>
+  <string name="filter_events">"Filtra eventi"</string>
+  <string name="open_menu">"Apri menu"</string>
+  <string name="calendars">"Calendari"</string>
+  <string name="settings">"Impostazioni"</string>
+  <string name="about">"Info"</string>
+  <string name="theme">"Tema"</string>
+  <string name="palette">"Palette di colori"</string>
+  <string name="font">"Font"</string>
+  <string name="show_seconds">"Mostra i secondi nell'orologio"</string>
+  <string name="weather">"Meteo"</string>
+  <string name="cancel">"Annulla"</string>
+  <string name="save">"Salva"</string>
+  <string name="font_failed">"Font non compatibile con il dispositivo. Ripristinato Roboto."</string>
+  <string name="font_invalid">"Il font selezionato non è compatibile con questo dispositivo."</string>
+  <string name="background">"Immagine di sfondo"</string>
+  <string name="choose_image">"Scegli immagine"</string>
+  <string name="file_picker_unavailable">"Selettore file non disponibile"</string>
+  <string name="remove">"Rimuovi"</string>
+  <string name="loading_image">"Caricamento immagine."</string>
+  <string name="image_failed">"Impossibile aprire l’immagine"</string>
+  <string name="no_image">"Nessuna immagine"</string>
+  <string name="selected_image">"Immagine selezionata"</string>
+  <string name="image_permission">"Android non ha concesso l’accesso all’immagine"</string>
+  <string name="version_unavailable">"Informazioni di versione non disponibili"</string>
+  <string name="filter_calendar">"Filtra per calendario"</string>
+  <string name="no_calendars">"Nessun calendario configurato"</string>
+  <string name="apply">"Applica"</string>
+  <string name="add">"Aggiungi"</string>
+  <string name="name">"Nome"</string>
+  <string name="ical_address">"Indirizzo pubblico iCal"</string>
+  <string name="google_calendar">"Calendario Google"</string>
+  <string name="invalid_calendar_url">"Inserisci un indirizzo pubblico iCal HTTPS"</string>
+  <string name="duplicate_calendar">"Calendario già configurato"</string>
+  <string name="calendar_config_error">"Configurazione calendari incompleta"</string>
+  <string name="refresh_weather">"Aggiorna meteo"</string>
+  <string name="weather_unavailable">"Meteo non disponibile"</string>
+  <string name="loading_weather">"Caricamento meteo…"</string>
+  <string name="refresh_failed">"Ultimo aggiornamento non riuscito"</string>
+  <string name="refreshing">"Aggiornamento in corso..."</string>
+  <string name="weather_enable">"Abilitazione Meteo"</string>
+  <string name="enable_show">"Abilita e mostra"</string>
+  <string name="place">"Località"</string>
+  <string name="no_place">"Nessuna località selezionata"</string>
+  <string name="search_place">"Cerca una località"</string>
+  <string name="temperature_unit">"Unità di misura temperatura"</string>
+  <string name="celsius">"Gradi Celsius (°C)"</string>
+  <string name="fahrenheit">"Gradi Fahrenheit (°F)"</string>
+  <string name="refresh_frequency">"Frequenza di aggiornamento"</string>
+  <string name="frequency_15">"15 minuti"</string>
+  <string name="frequency_30">"30 minuti"</string>
+  <string name="frequency_60">"1 ora"</string>
+  <string name="frequency_120">"2 ore"</string>
+  <string name="provider">"Provider: Open-Meteo · Località: GeoNames"</string>
+  <string name="select_place">"Seleziona una località dai risultati"</string>
+  <string name="searching">"Ricerca in corso…"</string>
+  <string name="search_unavailable">"Ricerca non disponibile"</string>
+  <string name="no_results">"Nessuna località trovata"</string>
+  <string name="primary_color">"Colore principale"</string>
+  <string name="background_color">"Sfondo dashboard"</string>
+  <string name="card_color">"Riquadri ordinari"</string>
+  <string name="highlight_color">"Sfondo evento in evidenza"</string>
+  <string name="primary_text">"Testo principale"</string>
+  <string name="secondary_text">"Testo secondario"</string>
+  <string name="clock_color">"Colore ora"</string>
+  <string name="date_color">"Colore data"</string>
+  <string name="hex_invalid">"Usa #RRGGBB o #AARRGGBB"</string>
+  <string name="use_color">"Usa colore"</string>
+  <string name="red">"Rosso"</string>
+  <string name="green">"Verde"</string>
+  <string name="blue">"Blu"</string>
+  <string name="purple">"Viola"</string>
+  <string name="orange">"Arancione"</string>
+  <string name="yellow">"Giallo"</string>
+  <string name="sky_blue">"Celeste"</string>
+  <string name="white">"Bianco"</string>
+  <string name="gray">"Grigio"</string>
+  <string name="fuchsia">"Fucsia"</string>
+  <string name="lime">"Lime"</string>
+  <string name="brown">"Marrone"</string>
+  <string name="opacity">"Opacità"</string>
+  <string name="default_font">"Roboto (predefinito)"</string>
+  <string name="custom_theme">"Personalizzato"</string>
+  <string name="theme_ivory_light">"Avorio e Petrolio - Chiaro"</string>
+  <string name="theme_slate_light">"Ardesia e Azzurro - Chiaro"</string>
+  <string name="theme_ivory_dark">"Avorio e Petrolio · Scuro"</string>
+  <string name="theme_slate_dark">"Ardesia e Azzurro · Scuro"</string>
+  <string name="theme_apricot_light">"Albicocca e Mandarino · Chiaro"</string>
+  <string name="theme_apricot_dark">"Albicocca e Mandarino · Scuro"</string>
+  <string name="theme_powder_light">"Cipria e Fucsia · Chiaro"</string>
+  <string name="theme_powder_dark">"Cipria e Fucsia · Scuro"</string>
+  <string name="theme_porcelain_light">"Porcellana e Ciliegia · Chiaro"</string>
+  <string name="theme_porcelain_dark">"Porcellana e Ciliegia · Scuro"</string>
+  <string name="theme_mint_light">"Menta e Smeraldo · Chiaro"</string>
+  <string name="theme_mint_dark">"Menta e Smeraldo · Scuro"</string>
+  <string name="clear">"Sereno"</string>
+  <string name="mainly_clear">"Prevalentemente sereno"</string>
+  <string name="partly_cloudy">"Parzialmente nuvoloso"</string>
+  <string name="overcast">"Coperto"</string>
+  <string name="fog">"Nebbia"</string>
+  <string name="rime_fog">"Nebbia con brina"</string>
+  <string name="drizzle">"Pioviggine"</string>
+  <string name="freezing_drizzle">"Pioviggine gelata"</string>
+  <string name="rain">"Pioggia"</string>
+  <string name="heavy_rain">"Pioggia forte"</string>
+  <string name="freezing_rain">"Pioggia gelata"</string>
+  <string name="heavy_freezing_rain">"Pioggia gelata forte"</string>
+  <string name="snow">"Nevicata"</string>
+  <string name="snow_grains">"Neve granulosa"</string>
+  <string name="rain_showers">"Rovesci di pioggia"</string>
+  <string name="heavy_showers">"Rovesci di pioggia forti"</string>
+  <string name="snow_showers">"Rovesci di neve"</string>
+  <string name="thunderstorm">"Temporale"</string>
+  <string name="heavy_thunderstorm">"Temporale forte"</string>
+  <string name="thunderstorm_hail">"Temporale con grandine"</string>
+  <string name="unknown_weather">"Condizioni sconosciute"</string>
+  <string name="language">"Lingua"</string>
+  <string name="language_system">"Sistema"</string>
+  <string name="language_name_en">"Inglese"</string>
+  <string name="language_name_it">"Italiano"</string>
+  <string name="untitled">"(Senza titolo)"</string>
+  <string name="starts_in">"Inizia tra %1$s"</string>
+  <string name="ends_in">"In corso - Termina tra %1$s"</string>
+  <string name="duration_join">"%1$s e %2$s"</string>
+  <string name="last_update">"Ultimo aggiornamento: %1$s"</string>
+  <string name="calendar_failures">"Calendari non aggiornati: %1$d"</string>
+  <string name="version_build">"Versione: %1$s
+Build: %2$d"</string>
+  <string name="author">"Autore: Andrea Persano"</string>
+  <string name="choose_color">"Scegli colore: %1$s"</string>
+  <string name="hex_accessibility">"%1$s in formato HEX"</string>
+  <plurals name="minutes">
+    <item quantity="one">%d minuto</item>
+    <item quantity="other">%d minuti</item>
+  </plurals>
+  <plurals name="hours">
+    <item quantity="one">%d ora</item>
+    <item quantity="other">%d ore</item>
+  </plurals>
+  <string-array name="wind_directions">
+    <item>N</item>
+    <item>NNE</item>
+    <item>NE</item>
+    <item>ENE</item>
+    <item>E</item>
+    <item>ESE</item>
+    <item>SE</item>
+    <item>SSE</item>
+    <item>S</item>
+    <item>SSO</item>
+    <item>SO</item>
+    <item>OSO</item>
+    <item>O</item>
+    <item>ONO</item>
+    <item>NO</item>
+    <item>NNO</item>
+  </string-array>
+  <string name="language_name_es">"Spagnolo"</string>
+  <string name="language_name_pt">"Portoghese"</string>
+  <string name="language_name_fr">"Francese"</string>
+  <string name="language_name_de">"Tedesco"</string>
+  <string name="language_name_zh">"Cinese (Mandarino)"</string>
+  <string name="language_name_ja">"Giapponese"</string>
+  <string name="language_name_ru">"Russo"</string>
+  <string name="date_pattern">"EEEE dd MMMM yyyy"</string>
+  <string name="clock_date_pattern">"EEEE, dd MMMM yyyy"</string>
+  <string name="back">"Indietro"</string>
+  <string name="general">"Generali"</string>
+  <string name="personalization">"Personalizzazione"</string>
+  <string name="date_time">"Data/ora"</string>
+  <string name="time_format">"Formato ora"</string>
+  <string name="hour_12">"12 ore"</string>
+  <string name="hour_24">"24 ore"</string>
+  <string name="date_format">"Formato data"</string>
+  <string name="short_date_pattern">"EEE, dd MMM yyyy"</string>
+  <string name="edit">"Modifica"</string>
+  <string name="calendar_color">"Colore"</string>
+  <string name="edit_calendar">"Modifica Calendario"</string>
+  <string name="unsaved_changes">"Modifiche non salvate"</string>
+  <string name="discard_settings_message">"Uscendo dalle impostazioni, le modifiche non salvate andranno perse. Vuoi uscire?"</string>
+  <string name="exit">"Esci"</string>
+    <string name="timewall_info">TimeWall info</string>
+    <string name="privacy">Privacy</string>
+    <string name="licenses_credits">Licenze e crediti</string>
+    <string name="credits_summary">Dati meteo forniti da Open-Meteo — CC BY 4.0. Ricerca località: Open-Meteo con dati GeoNames. Seguono copyright e licenze dei font inclusi; Roboto di sistema è fornito da Android.</string>
+    <string name="font_conversion_notice">I nuovi font variabili sono stati convertiti in istanze statiche Regular per Android 4.4. Il derivato di Raleway usa il nome interno TW Rale. Roboto Slab: Apache 2.0; gli altri font inclusi: SIL OFL 1.1.</string>
+    <string name="licenses_unavailable">Impossibile caricare alcuni avvisi di licenza.</string>
+    <string name="original_assets_credit">Icone meteo, icona dell’app e suono di notifica: risorse create per TimeWall con strumenti di intelligenza artificiale.</string>
+    <string name="interface_icons_credit">FontAwesome Free — font delle icone dei pulsanti e dei menu dell’interfaccia — SIL OFL 1.1.</string>
+    <string name="clear_calendar_cache">Svuota cache calendari</string>
+    <string name="calendar_cache_hint">Elimina le copie locali dei calendari salvati e avvia un aggiornamento. Non salva le modifiche in questa schermata.</string>
+    <string name="calendar_cache_cleared">Cache calendari svuotata. Aggiornamento in corso…</string>
+    <string name="calendar_cache_error">Impossibile svuotare completamente la cache dei calendari.</string>
+    <string name="clearing_calendar_cache">Svuotamento cache calendari…</string>
+    <string name="weather_attribution">Dati meteo: Open-Meteo · CC BY 4.0</string>
+    <string name="external_link_unavailable">Nessuna applicazione disponibile per aprire questo collegamento.</string>
+    <string name="privacy_identity">Informativa privacy di TimeWall\nTitolare: %1$s\nContatto: %2$s</string>
+    <string name="privacy_updated">Ultimo aggiornamento: %1$s</string>
+    <string name="privacy_service">Finalità e base giuridica\nI trattamenti sono necessari a fornire la dashboard calendari e il meteo facoltativo richiesti (art. 6, par. 1, lett. b GDPR); si applicano gli obblighi di legge pertinenti. TimeWall non richiede account, non ha server dello sviluppatore e non usa pubblicità, analytics o profilazione. Non adotta decisioni automatizzate con effetti giuridici.</string>
+    <string name="privacy_calendars">Calendari\nL’app contatta direttamente i provider iCal HTTPS configurati. URL, nomi, colori e file iCal completi sono conservati sul dispositivo; i file possono includere titoli, orari, descrizioni, luoghi, identificativi, date di creazione e altri dati personali. Gli URL segreti consentono l’accesso al calendario: proteggili e usa solo calendari che sei autorizzato a consultare. I provider ricevono URL richiesto, IP della connessione e metadati di rete; si applicano le loro informative.</string>
+    <string name="privacy_weather">Meteo facoltativo\nRicerca della località e lingua sono inviate al geocoding Open-Meteo; le previsioni usano le coordinate della località scelta. Non viene richiesta la posizione GPS. Open-Meteo vede anche l’IP della connessione e dichiara di eliminare dopo 90 giorni i log API, che possono includere coordinate. Disabilitare il meteo ferma le previsioni; le ricerche esplicite nelle Impostazioni contattano comunque Open-Meteo. I fornitori esterni operano autonomamente e possono trattare dati fuori dal tuo paese o dal SEE: consulta le loro informative per sedi e garanzie.</string>
+    <string name="privacy_local">Impostazioni e immagini locali\nTema, font, lingua, filtri, formato orario e preferenze meteo restano sul dispositivo. Lo sfondo viene letto tramite il selettore file Android; TimeWall non lo carica su server. Il titolare riceve dati personali solo se scegli di contattarlo, ad esempio indirizzo email e messaggio, per gestire la richiesta.</string>
+    <string name="privacy_retention">Conservazione e cancellazione\nLa cache dei calendari viene sostituita agli aggiornamenti riusciti ed eliminata quando salvi la rimozione del calendario o il cambio URL. Impostazioni → Calendari → Svuota cache calendari elimina le copie locali e le riscarica, senza cancellare la configurazione. Disabilitare il meteo conserva località e opzioni. Cancellare i dati dell’app o disinstallarla elimina lo spazio privato, non immagini originali o dati dei provider. I messaggi di contatto sono conservati per il tempo necessario a gestire la richiesta e gli obblighi di legge applicabili.</string>
+    <string name="privacy_security">Sicurezza\nLe richieste di rete usano HTTPS. File e preferenze locali si basano sull’isolamento Android, senza cifratura applicativa aggiuntiva. I log degli errori meteo contengono solo categorie tecniche predefinite. Il backup Android è disabilitato. I collegamenti esterni aprono il browser o l’app email scelti, soggetti alle rispettive informative.</string>
+    <string name="privacy_rights">I tuoi diritti\nOve applicabile puoi chiedere accesso, rettifica, cancellazione, limitazione, portabilità e opporti al trattamento contattando il titolare. Puoi presentare reclamo al Garante o a un’altra autorità competente. Per i dati solo sul dispositivo usa i comandi locali: il titolare non può accedervi da remoto. Per dati detenuti da provider autonomi di calendari o meteo, contatta tali provider. Fornire URL calendario e località meteo è facoltativo; senza questi dati la relativa funzione non è disponibile.</string>
+    <string name="privacy_web_pending">URL pubblico dell’informativa privacy: da definire.</string>
+  <string name="no_calendars_configured">"Nessun calendario configurato. Aggiungi calendario"</string>
+</resources>
