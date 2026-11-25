@@ -32,6 +32,8 @@ for lang in ['it','en']:
   (T("Tema personalizzabile", "Customisable theme"), False, True),
   (T("Immagine di sfondo personalizzata", "Custom background image"), False, True),
   (T("Funzione Meteo", "Weather"), False, True),
+  (T("Widget per la schermata Home (Orologio, What’s next, Agenda e Meteo)",
+     "Home screen widgets (Clock, What’s next, Agenda and Weather)"), False, True),
  ]
  def availability(included):
   if type(included) is int:
@@ -44,10 +46,34 @@ for lang in ['it','en']:
  <div class="section-heading"><h2 id="editions-title">{T('Confronta Free e Pro','Compare Free and Pro')}</h2>
  <p>{T('Free è gratuita e include un calendario. Pro è in preparazione come edizione a pagamento. Il prezzo è da definire.','Free includes one calendar at no cost. The paid Pro edition is in development, with pricing to be announced.')}</p></div>
  <table class="edition-table" aria-labelledby="editions-title"><thead><tr><th scope="col">{T('Funzionalità','Feature')}</th><th scope="col">Free</th><th scope="col">Pro</th></tr></thead><tbody>{rows}</tbody></table></section>"""
+ widget_items = [
+  ('clock', 408, 228, T('Orologio', 'Clock'),
+   T('Ora e data al centro, con formato e font configurabili.', 'Centred time and date, with configurable formats and font.')),
+  ('whats_next', 444, 232, 'What’s next',
+   T('Mostra gli eventi in corso e quelli che iniziano entro 30 minuti.', 'See events in progress and those starting within 30 minutes.')),
+  ('agenda', 444, 380, 'Agenda',
+   T('Consulta gli appuntamenti di oggi e dei prossimi giorni.', 'Browse today’s appointments and upcoming events.')),
+  ('weather', 408, 256, T('Meteo', 'Weather'),
+   T('Temperatura e condizioni della località impostata nella Dashboard. I dettagli si adattano allo spazio disponibile.',
+     'Temperature and conditions for the location set in the dashboard. The detail adapts to the space available.')),
+ ]
+ widget_cards = ''.join(
+  f'<article class="feature widget-preview"><h3>{title}</h3>'
+  f'<img src="../assets/{key}_widget_preview.png" alt="" width="{width}" height="{height}" loading="lazy">'
+  f'<p>{description}</p></article>'
+  for key, width, height, title, description in widget_items
+ )
+ widgets = f"""<section class="section" id="widgets" aria-labelledby="widgets-title">
+ <div class="section-heading">
+ <h2 id="widgets-title">{T('La dashboard sulla schermata Home, con Pro','Bring the dashboard to your home screen with Pro')}</h2>
+ <p>{T('Disponi i quattro widget come preferisci. Puoi aggiungere più istanze di Agenda e What’s next, scegliendo calendari diversi per ciascuna.',
+       'Arrange the four widgets however you like. Add multiple Agenda and What’s next widgets and choose different calendars for each.')}</p>
+ </div><div class="widget-previews">{widget_cards}</div></section>"""
  home=f'''<section class="hero"><div class="hero-copy"><p class="eyebrow">{T('LA TUA GIORNATA. A COLPO D’OCCHIO.','YOUR DAY. AT A GLANCE.')}</p><h1>{T('Il tuo tempo,<br>in primo <em>piano.</em>','Your time,<br>in <em>focus.</em>')}</h1><p class="lead">{T('Vedi a colpo d’occhio l’impegno in corso o quello che sta per iniziare. TimeWall trasforma anche un vecchio tablet Android in una dashboard da scrivania, con orologio e agenda sempre in vista.','See what’s happening now or what’s about to start at a glance. TimeWall turns even an older Android tablet into a desk dashboard with your clock and agenda in view.')}</p><div class="actions"><a class="button" href="download.html">{T('Scarica TimeWall','Download TimeWall')}</a><a class="button secondary" href="#editions">{T("Confronta Free e Pro","Compare Free and Pro")}</a></div><p class="fine">Android 4.4+ <span>·</span> {T('Collaudata su Asus TF303CL','Tested on Asus TF303CL')}</p></div><div class="hero-art"><div class="tablet"><a href="../assets/{hero_file}" data-lightbox aria-label="{T('Ingrandisci la dashboard','Enlarge the dashboard')}">{pic(hero_file,T('Dashboard TimeWall con orologio, meteo e agenda','TimeWall dashboard with clock, weather and agenda'),lazy=False)}</a></div><p class="image-note">{T('Anteprima della versione completa','Preview of the full edition')}</p></div></section>
  <div class="benefit-bar"><span>{T('Calendari iCal pubblici','Public iCal calendars')}</span><span>{T('Nessun account TimeWall','No TimeWall account')}</span><span>{T('Evento in corso o prossimo','Current or next event')}</span></div>
  <section class="section"><div class="section-heading"><p class="eyebrow">{T('MENO TOCCHI, PIÙ CHIAREZZA','FEWER TAPS, MORE CLARITY')}</p><h2>{T('Tutto ciò che serve.<br>Uno sguardo soltanto.','Everything you need.<br>Just a glance away.')}</h2><p>{T('Sul tavolo, in cucina o accanto alla scrivania: un punto di riferimento per gli impegni di ogni giorno.','On a table, in the kitchen or beside your desk: a shared view of what the day has in store.')}</p></div><div class="features">{card(T('Il tempo, ben visibile','Time, clearly displayed'),T('Un grande orologio con data e formato personalizzabile. Leggibile anche a distanza.','A large clock with date and customisable format. Easy to read from across the room.'))}{card(T('L’impegno che conta adesso','The event that matters now'),T('Sotto l’orologio trovi l’evento in corso o il prossimo in agenda. Il resto della giornata rimane consultabile accanto, insieme agli appuntamenti futuri.','Below the clock, see your current or next event. The agenda alongside shows the rest of today and upcoming appointments.'))}{card(T('Una seconda vita per il tablet','A second life for your tablet'),T('Metti in orizzontale un tablet che usi poco e tienilo sulla scrivania come pannello per gli impegni di ogni giorno.','Place a tablet you rarely use in landscape on your desk and turn it into an everyday display for your plans.'))}</div></section>
  {editions}
+ {widgets}
  <section class="section gallery-section" id="screenshots"><div class="section-heading inline"><div><p class="eyebrow">{T('DENTRO TIMEWALL','A LOOK INSIDE')}</p><h2>{T('Un’app, il tuo stile.','One app. Your style.')}</h2></div><p>{T('Temi chiari e scuri, calendari a colori e dettagli sempre a portata di mano.','Light and dark themes, colourful calendars and details within easy reach.')}</p></div><div class="gallery">{screen(hero_file,T('La dashboard, in scuro','The dashboard, in dark mode'))}{screen('02-agenda-chiaro-it.png',T('La leggerezza del tema chiaro','A fresh look in light mode'))}{screen('03-calendari-it.png',T('Tutti i tuoi calendari','All your calendars'))}{screen('04-personalizzazione-it.png',T('Un aspetto che ti somiglia','A look that feels like you'))}{screen('05-meteo-it.png',T('Il meteo della tua località','Weather for your chosen location'))}{screen('06-dettaglio-evento-it.png',T('Ogni evento, nel dettaglio','Every event, in detail'))}</div><p class="fine">{T('Anteprima della versione completa 0.101 su tablet, con dati dimostrativi. Meteo, calendari multipli e personalizzazione avanzata sono previsti per Pro.','Preview of the full edition (0.101) on a tablet with demo data. Weather, multiple calendars and advanced customisation are planned for Pro. Some screens are in Italian.')}</p></section>
  <section class="split section"><div><p class="eyebrow">{T('UN TABLET, UNA NUOVA ABITUDINE','ONE TABLET, A NEW ROUTINE')}</p><h2>{T('Dai una nuova<br>giornata al tuo tablet.','Give your tablet<br>a new day.')}</h2></div><div><p class="lead">{T('TimeWall nasce per rendere utile anche un tablet che hai già. Una schermata orizzontale, semplice da consultare, che lascia spazio alle cose da fare.','TimeWall is built to give a tablet you already own a useful role. A landscape display that’s easy to check and gives your plans room to breathe.')}</p><a class="text-link" href="quick-start.html">{T('Configuralo in pochi passi','Set it up in a few steps')}</a></div></section>{cta()}'''
  steps=[(T('Installa e apri TimeWall','Install and open TimeWall'),T('Scarica l’APK di TimeWall Free dalla pagina Download e aprilo sul dispositivo. Se Android lo richiede, autorizza l’installazione per l’app con cui hai aperto il file. I nomi delle opzioni variano in base alla versione di Android. Avvia TimeWall e posiziona il tablet in orizzontale.','Get the TimeWall Free APK from the Download page and open it on your device. If Android prompts you, allow installation from the app used to open the file. Option names vary by Android version. Open TimeWall and place your tablet in landscape orientation.')),
