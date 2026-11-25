@@ -26,12 +26,12 @@ python3 -m http.server 8080 --directory dist
 
 ## Completamento prima della distribuzione definitiva
 
-- Sostituire `public/downloads/TimeWall-Dashboard.apk` con il file definitivo.
+- Per aggiornare l’APK scaricabile, sostituire `public/downloads/TimeWall-Dashboard.apk` con l’output di `assembleSiteFreeWebsite`.
 - Aggiornare `release.json` e la data del file nella pagina download in `build.py`.
 - Compilare il changelog in `build.py` con le note effettive delle versioni.
 - Quando disponibile, sostituire il pulsante Google Play disabilitato con un collegamento alla scheda ufficiale.
 - Aggiornare la sezione licenza quando l’autore avrà scelto le condizioni di distribuzione.
-- L’APK recuperato è la versione 0.102, build 102, file del 20 novembre 2026. Non è stata verificata una cartella build sul PC dell’autore.
+- L’APK incluso è TimeWall Free per il sito, versione 0.102, build 102, con ID di collaudo `it.timewall.dashboard.sitefree`.
 - Gli screenshot originali provengono dalla versione 0.101, con dati dimostrativi. La dashboard inglese è disponibile; gli altri screenshot originali sono in italiano.
 - Il testo privacy dell’app riprende l’informativa già presente nei sorgenti del 20 novembre 2026; la sezione sito descrive il comportamento di queste pagine statiche.
 
