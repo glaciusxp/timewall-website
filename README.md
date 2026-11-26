@@ -5,7 +5,7 @@ Sito statico in italiano e inglese, tema Ardesia e Azzurro. HTML, CSS e JavaScri
 ## Struttura
 
 - `dist/`: sito pronto da servire con qualsiasi hosting statico; include APK.
-- `build.py`: genera le sei pagine per ciascuna lingua e l’ingresso italiano.
+- `build.py`: genera le sette pagine per ciascuna lingua e l’ingresso italiano.
 - `public/`: immagini, stili, script, testi delle licenze e APK originali da copiare nel sito.
 - `content/it.xml`, `content/en.xml`: testi privacy e crediti derivati dalle risorse della release Android verificata.
 - `release.json`: versione e numero build.
@@ -17,6 +17,11 @@ Richiede Python 3, senza pacchetti aggiuntivi:
 ```sh
 python3 build.py
 ```
+
+La build valida i metadati e l'integrità dell'APK indicato in `release.json`.
+Genera il sito in una directory temporanea accanto a `dist/`. Se la generazione
+fallisce, la copia precedente di `dist/` resta utilizzabile. Al termine di una
+build riuscita, la nuova directory sostituisce quella precedente.
 
 Per l’anteprima locale:
 
