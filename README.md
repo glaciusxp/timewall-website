@@ -29,17 +29,13 @@ Per l’anteprima locale:
 python3 -m http.server 8080 --directory dist
 ```
 
-## Completamento prima della distribuzione definitiva
+## Distribuzione
 
-- Per aggiornare l’APK scaricabile, sostituire `public/downloads/TimeWall-Dashboard.apk` con l’output di `assembleSiteFreeWebsite`.
-- Aggiornare `release.json` e la data del file nella pagina download in `build.py`.
-- Compilare il changelog in `build.py` con le note effettive delle versioni.
-- Quando disponibile, sostituire il pulsante Google Play disabilitato con un collegamento alla scheda ufficiale.
-- Aggiornare la sezione licenza quando l’autore avrà scelto le condizioni di distribuzione.
-- L’APK incluso è TimeWall Free per il sito, versione 0.102, build 102, con ID di collaudo `it.timewall.dashboard.sitefree`.
-- Gli screenshot originali provengono dalla versione 0.101, con dati dimostrativi. La dashboard inglese è disponibile; gli altri screenshot originali sono in italiano.
-- Il testo privacy dell’app riprende l’informativa già presente nei sorgenti del 20 novembre 2026; la sezione sito descrive il comportamento di queste pagine statiche.
+- L’APK pubblico e i relativi metadati sono definiti in `release.json`. Il workflow di rilascio del repository dell’app li aggiorna quando viene pubblicato un tag per il sito.
+- La pagina Download mostra le funzioni della versione scaricabile in base al numero di build. La home e la guida possono presentare funzioni in test, con un’indicazione della loro disponibilità.
+- Aggiornare il collegamento a Google Play quando la scheda sarà pubblica.
+- Il codice di TimeWall è distribuito con licenza MIT. Le risorse di terze parti mantengono le rispettive licenze.
+- Le catture della galleria provengono dalla versione 0.101 e mostrano dati dimostrativi. La dashboard è disponibile in italiano e inglese. Le altre catture della galleria sono in italiano.
+- La pagina Privacy riprende l’informativa Android e descrive anche l’esportazione manuale delle impostazioni e il comportamento del sito statico.
 
-## Riscontro sui riferimenti ai calendari
-
-Nei sorgenti Android recuperati esiste ancora la chiave `google_calendar` in nove traduzioni (`src/main/res/values*/strings.xml`, riga 50); non sono stati trovati utilizzi della chiave nel codice Java. Sono presenti riferimenti tecnici separati al provider TLS di sistema in `platform/tls/PlayServicesTls.java`, al formatter di sviluppo e nei copyright dei font. Il sito presenta esclusivamente calendari iCal pubblici, indipendenti dal provider. I sorgenti Android non sono stati modificati.
+TimeWall supporta feed iCal pubblici via HTTPS, indipendentemente dal provider.
