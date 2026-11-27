@@ -1,6 +1,6 @@
 {
-  "version": "0.103",
-  "build": 103,
+  "version": "1.0.alpha-1",
+  "build": 108,
   "apk_source": "public/downloads/TimeWall-Dashboard.apk",
-  "release_date": "2026-11-25"
+  "release_date": "2026-11-27"
 }
