@@ -35,7 +35,7 @@ python3 -m http.server 8080 --directory dist
 - La pagina Download mostra le funzioni della versione scaricabile in base al numero di build. La home e la guida possono presentare funzioni in test, con un’indicazione della loro disponibilità.
 - Aggiornare il collegamento a Google Play quando la scheda sarà pubblica.
 - Il codice di TimeWall è distribuito con licenza MIT. Le risorse di terze parti mantengono le rispettive licenze.
-- Le catture della galleria provengono dalla versione 0.101 e mostrano dati dimostrativi. La dashboard è disponibile in italiano e inglese. Le altre catture della galleria sono in italiano.
+- La galleria e il Quick Start usano catture della build 110 in italiano e inglese, da emulatore Android con dati dimostrativi.
 - La pagina Privacy riprende l’informativa Android e descrive anche l’esportazione manuale delle impostazioni e il comportamento del sito statico.
 
 TimeWall supporta feed iCal pubblici via HTTPS, indipendentemente dal provider.
